@@ -1,5 +1,5 @@
 #!/bin/bash
 chmod u+x $1
 git add .
-git commit -m $1
+git commit -m 'low language'
 git push origin master
