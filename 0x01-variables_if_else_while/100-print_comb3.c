@@ -15,9 +15,10 @@ int main(void)
 	{
 	putchar(x);
 	y = x + 1;
-	while (y < 9)
+	while (y < '9')
 	{
 	putchar(y);
+	y++;
 	}
 	if (x < '8')
 	{
