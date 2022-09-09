@@ -17,7 +17,7 @@ int main(void)
 	y = x + 1;
 	while (y < 9)
 	{
-	puchar(y);
+	putchar(y);
 	}
 	if (x < '8')
 	{
