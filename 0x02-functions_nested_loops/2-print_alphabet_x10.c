@@ -6,8 +6,8 @@
  */
 void print_alphabet_x10(void)
 {
-int  y = 10, i;
-for (i = 0; y < 10; i++)
+int i;
+for (i = 0; i < 10; i++)
 {
 char x = 'a';
 while (x <= 'z')
