@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main - - prints _putchar, followed by a new line
+ * print_alphabet - - prints _putchar, followed by a new line
  *
  * Return: 0
  */
-int main(void)
+void print_alphabet(void)
 {
 char x = 'a';
 while (x <= 'z')
