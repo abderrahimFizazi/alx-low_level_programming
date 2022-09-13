@@ -1,4 +1,6 @@
 #include "main.h"
+#include <ctype.h>
+#include <stdio.h>
 #include <stdlib.h>
 /**
  * _isalpha - - prints _putchar, followed by a new line
