@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * _isalpha - - prints _putchar, followed by a new line
  * @c : character to check the case
