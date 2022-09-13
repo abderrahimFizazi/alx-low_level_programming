@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _islower - - prints _putchar, followed by a new line
- * c - - decs here
- * Return: 0
+ * @c : character to check the case
+ * Return:0 or 1
  */
 int _islower(int c)
 {
