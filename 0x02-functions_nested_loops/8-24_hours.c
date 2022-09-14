@@ -30,5 +30,6 @@ _putchar('0' + y);
 else
 _putchar('0' + y);
 }
+_putchar('\n');
 }
 }
