@@ -8,28 +8,24 @@
  */
 void jack_bauer(void)
 {
-int x, y;
-
-for (x = 0; x < 24; x++)
+int x, y, z, k;
+for (x = 0; x < 3; x++)
 {
-for (y = 0; y < 60; y++)
+for (y = 0; y < 10; y++)
 {
-if (x < 10)
-{
-_putchar('0');
 _putchar('0' + x);
-}
-else
-_putchar('0' + x);
+_putchar('0' + y);
 _putchar(':');
-if (x < 10)
+for (z = 0; z < 6; z++)
 {
-_putchar('0');
-_putchar('0' + y);
-}
-else
-_putchar('0' + y);
-_putchar('\n');
+for (k = 0; k < 10; k++)
+{
+_putchar('0' + z);
+_putchar('0' + k);
 }
 }
 }
+}
+}
+
+
