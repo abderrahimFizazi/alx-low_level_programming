@@ -22,10 +22,10 @@ for (k = 0; k < 10; k++)
 {
 _putchar('0' + z);
 _putchar('0' + k);
+_puctchar('\n');
 }
 }
 }
-_putchar('\n');
 }
 }
 
