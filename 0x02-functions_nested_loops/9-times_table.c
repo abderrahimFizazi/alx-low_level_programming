@@ -19,8 +19,8 @@ if (k > 9)
 {
 l = k % 10;
 m = (k - l) / 10;
-_putchar('0' + l);
 _putchar('0' + m);
+_putchar('0' + l);
 }
 else
 {
