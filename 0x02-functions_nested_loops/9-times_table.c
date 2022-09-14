@@ -8,14 +8,15 @@
  */
 void times_table(void)
 {
-int i, j, k;
+  int i, j, k, l, m;
 
 for (i = 0; i <  10; i++)
 {
 for (j = 0; j < 10; j++)
 {
 k = i * j;
-_putchar('0' + k);
+
+printf('%d',k);
 if (j < 9)
 {
 _putchar(',');
