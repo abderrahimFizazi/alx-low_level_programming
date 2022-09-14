@@ -9,7 +9,7 @@
  */
 void print_to_98(int n)
 {
-int i, m, n;
+int i, m, k;
 
 if (n > 98)
 {
@@ -18,9 +18,9 @@ for ( i = n; i > 98; i--)
 m = i;
 while (m  > 0)
 {
-n = m % 10;
-m = (m - n) / 10;
-_putchar('0' + n);
+k = m % 10;
+m = (m - k) / 10;
+_putchar('0' + k);
 }
 _putchar(',');
 _putchar(' ');
@@ -35,9 +35,9 @@ for ( i = n; i < 98; i++)
 m = i;
 while (m  > 0)
 {
-n = m % 10;
-m = (m - n) / 10;
-_putchar('0' + n);
+k = m % 10;
+k = (m - n) / 10;
+_putchar('0' + k);
 }
 _putchar(',');
 _putchar(' ');
