@@ -25,6 +25,7 @@ _putchar('0' + k);
 }
 }
 }
+_putchar('\n');
 }
 }
 
