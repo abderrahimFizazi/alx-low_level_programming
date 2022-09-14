@@ -16,7 +16,7 @@ int rep;
 while (a <= n)
 {
 	b = 0;
-	while (b <= 9)
+	while (b <= n)
 	{
 		rep = a * b;
 		if (b == 0)
