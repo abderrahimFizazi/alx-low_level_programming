@@ -31,7 +31,7 @@ _putchar('\n');
 }
 else
 {
-for (y = 0; y < 10; y++)
+for (y = 0; y < 3; y++)
 {
 for (z = 0; z < 6; z++)
 {
