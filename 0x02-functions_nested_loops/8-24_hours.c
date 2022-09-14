@@ -26,6 +26,7 @@ if (x < 10)
 {
 _putchar('0');
 _putchar('0' + y);
+}
 else
 _putchar('0' + y);
 }
