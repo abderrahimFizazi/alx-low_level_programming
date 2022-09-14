@@ -15,8 +15,17 @@ for (i = 0; i <  10; i++)
 for (j = 0; j < 10; j++)
 {
 k = i * j;
-
-printf('%d',k);
+if (k > 9)
+{
+l = k % 10;
+m = (k - l) / 10;
+_putchar('0' + l);
+_putchar('0' + m);
+}
+else
+{
+putchar('0' + k);
+}
 if (j < 9)
 {
 _putchar(',');
