@@ -34,7 +34,7 @@ while (a <= n)
 			_putchar('0' + rep % 10);
 		}
 
-		if (b < 9)
+		if (b < n)
 		{
 			_putchar(',');
 			_putchar(' ');
