@@ -24,12 +24,12 @@ _putchar('0' + l);
 }
 else
 {
+_putchar(' ');
 _putchar('0' + k);
 }
 if (j < 9)
 {
 _putchar(',');
-_putchar(' ');
 _putchar(' ');
 }
 }
