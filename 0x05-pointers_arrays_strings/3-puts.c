@@ -13,5 +13,5 @@ p = str;
 do {
 printf("%c", *p);
 str++;
-} while (p != '\0');
+} while (*p != '\0');
 }
