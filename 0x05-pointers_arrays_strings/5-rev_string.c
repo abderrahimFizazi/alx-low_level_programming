@@ -16,7 +16,7 @@ for (p = s; *p != '\0'; p++)
 {
 }
 p--;
-for (p, r = s ; r != p; p--, r++)
+for (r = s ; r != p; p--, r++)
 {
 temp = *p;
 *p = *s;
