@@ -9,9 +9,11 @@ void _puts(char *str)
 {
 char *p;
 
-for (p = str; *p != '\0'; p++)
+ s= str;
+do
 {
 printf("%c", *p);
+str++;
 }
-printf("");
+while (p != '\0'); 
 }
