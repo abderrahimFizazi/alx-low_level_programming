@@ -7,26 +7,14 @@
 
 void puts_half(char *s)
 {
-char *p;
-int i;
-int l;
-int half;
-l = 0;
-for (p = s; *p != '\0'; p++)
+  int i;
+
+for (i = 0; str[i] != '\0'; i++)
+;
+i++;
+for (i /= 2; str[i] != '\0'; i++)
 {
-l++;
+_putchar(str[i]);
 }
-if (l % 2 == 0)
-{
-half = l / 2;
-}
-else
-{
-half = (l - 1) / 2;
-}
-for (i = 0, p = s + half; *p != '\0'; i++, p++)
-{
-printf("%c", *p);
-}
-printf("\n");
+_putchar('\n');
 }
