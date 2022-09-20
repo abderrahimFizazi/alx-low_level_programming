@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
  * puts_half - reset argument to 98
- * @s: pointer
+ * @str: pointer
  * Return: void
  */
 
-void puts_half(char *s)
+void puts_half(char *str)
 {
   int i;
 
