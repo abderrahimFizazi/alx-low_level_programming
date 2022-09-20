@@ -21,5 +21,5 @@ for (i = 0; i <= l; i++, p--)
 {
 printf("%c", *p);
 }
-print("\0");
+printf("\n");
 }
