@@ -16,5 +16,5 @@ for (i /= 2; str[i] != '\0'; i++)
 {
 printf("%c",str[i]);
 }
-printf('\n');
+printf("\n");
 }
