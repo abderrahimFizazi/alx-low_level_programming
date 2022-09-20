@@ -24,7 +24,7 @@ else
 {
 half = (l - 1) / 2;
 }
-for (i = 0, p = s + half; p != '\0'; i++, p++)
+for (i = 0, p = s + half; *p != '\0'; i++, p++)
 {
 printf("%c", *p);
 }
