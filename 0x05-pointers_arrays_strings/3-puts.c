@@ -8,8 +8,9 @@
 void _puts(char *str)
 {
 char *p;
+
 for (p = str; *p != '\0'; p++)
 {
-printf("%c",*str);
+printf("%c", *p);
 }
 }
