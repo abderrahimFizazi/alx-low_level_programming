@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * _puts - reset argument to 98
  * @str: pointer
@@ -7,11 +8,8 @@
 void _puts(char *str)
 {
 char *p;
-int l;
-l = 0;
 for (p = str; *p != '\0'; p++)
 {
-putc(*str);
+printf("%c",*str);
 }
-return (l);
 }
