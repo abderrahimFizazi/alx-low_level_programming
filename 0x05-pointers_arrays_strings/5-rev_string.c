@@ -19,5 +19,4 @@ temp = *p;
 *p = *s;
 *s = temp;
 }
-printf("\n");
 }
