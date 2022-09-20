@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- * print_rev - reset argument to 98
+ * puts2 - reset argument to 98
  * @s: pointer
  * Return: void
  */
 
-void print_rev(char *s)
+void puts2(char *s)
 {
 char *p;
 int i;
