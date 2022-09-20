@@ -9,7 +9,7 @@ void _puts(char *str)
 {
 char *p;
 
-s = str;
+p = str;
 do {
 printf("%c", *p);
 str++;
