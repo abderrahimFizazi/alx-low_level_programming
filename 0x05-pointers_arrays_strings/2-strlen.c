@@ -1,5 +1,5 @@
 /**
- * swap_int - reset argument to 98
+ * _strlen - reset argument to 98
  * @s: pointer
  * Return: void
  */
