@@ -17,7 +17,7 @@ for (p = s; *p != '\0'; p++)
 l++;
 }
 p--;
-for (i = 0; i <= l; i++, p--)
+for (i = 0; i < l; i++, p--)
 {
 printf("%c", *p);
 }
