@@ -13,5 +13,5 @@ for (p = str; *p != '\0'; p++)
 {
 printf("%c", *p);
 }
-printf('\0');
+printf("");
 }
