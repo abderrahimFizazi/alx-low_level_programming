@@ -20,5 +20,4 @@ for (i = 0; i <= l; i++, p--)
 {
 printf("%c", *p);
 }
-printf("\n");
 }
