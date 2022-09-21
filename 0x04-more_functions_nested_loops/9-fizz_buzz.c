@@ -1,10 +1,8 @@
 #include <stdio.h>
 /**
- *  * main - check the code for Holberton School students.
- *   *
- *    * Return: void.
- *     */
-
+ * main - check the code for Holberton School students.
+ * Return: void
+ */
 int main(void)
 {
 
