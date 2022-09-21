@@ -1,13 +1,16 @@
 #include <stdio.h>
-#include "main.h"
 /**
- * main - check the code.
-*/
+ *  * main - check the code for Holberton School students.
+ *   *
+ *    * Return: void.
+ *     */
+
 int main(void)
 {
-	int i;
 
-	for (i = 0; i < 101; i++)
+	int i = 1;
+
+	while (i <= 100)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
@@ -23,12 +26,15 @@ int main(void)
 		}
 		else
 		{
-			_putchar('0' + i);
+			printf("%i", i);
 		}
-		if ( i < 100)
+
+		if (i != 100)
 		{
-			_putchar(' ');
+			putchar(' ');
 		}
+		i++;
 	}
-	_putchar('\n');
+	putchar('\n');
+	return (0);
 }
