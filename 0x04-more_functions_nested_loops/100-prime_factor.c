@@ -1,24 +1,24 @@
 #include <stdio.h>
-#include <math.h>
+
 /**
- * main - prime numbers
+ * main - Entry point.
  *
  * Return: Always 0.
  */
+
 int main(void)
-{
 
-unsigned int long n = 612852475143, a = (int) sqrt(n);
+{
+long n, i;
 
-while (1)
+n = 612852475143;
+for (i = 2; i < n; i++)
 {
-if (n % a == 0)
-{
-printf("%lu \n", n / a);
-break;
+while (n % i == 0)
+n = n / i;
 }
-a--;
-}
+
+printf("%lu\n", n);
 
 return (0);
 }
