@@ -3,7 +3,7 @@
  * print_line - check the code.
  * @n: hey
 */
-void print_line(int n);
+void print_line(int n)
 {
 	int i;
 
