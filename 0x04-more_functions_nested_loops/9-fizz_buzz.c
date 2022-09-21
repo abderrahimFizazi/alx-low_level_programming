@@ -19,7 +19,7 @@ void fizz_buzz(void)
 		}
 		else if (i % 5 == 0)
 		{
-			prinft("Buzz");
+			printf("Buzz");
 		}
 		else
 		{
