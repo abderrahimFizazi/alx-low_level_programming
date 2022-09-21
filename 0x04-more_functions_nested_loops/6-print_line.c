@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_line - check the code.
+ * @n: hey
 */
 void print_line(int n);
 {
