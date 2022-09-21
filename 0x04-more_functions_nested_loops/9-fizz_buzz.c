@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_most_numbers - check the code.
+ * main - check the code.
 */
-void fizz_buzz(void)
+int main(void)
 {
 	int i;
 
