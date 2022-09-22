@@ -1,20 +1,21 @@
 /**
- * _strcat - find the length of a string
- * @dest: pointer to the string to check
- * @src: something here
+ *_strcat - concatenates two strings
+ * @dest: pointer destination
+ * @src: pointer source
  * Return: void
  */
 
-
 char *_strcat(char *dest, char *src)
 {
-char *p, *k;
-for (p = dest; p != '\0'; p++)
-;
-*p = *src;
-for (k = src; k != '\0'; k++, p++)
-{
-*p = *k;
-}
-return (dest);
+	int a = -1, i;
+
+	for (i = 0; dest[i] != '\0'; i++)
+	;
+	do {
+	a++;
+	dest[i] = src[a];
+	i++;
+	} while (src[a] != '\0');
+
+	return (dest);
 }
