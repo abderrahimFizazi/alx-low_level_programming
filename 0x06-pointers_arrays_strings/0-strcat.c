@@ -16,5 +16,5 @@ for (k = src; k != '\0'; k++, p++)
 {
 *p = *k;
 }
-return (*dest);
+return (dest);
 }
