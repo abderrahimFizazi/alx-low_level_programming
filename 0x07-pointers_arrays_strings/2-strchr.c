@@ -1,32 +1,22 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * _strchr - prints buffer in hexa
- * @s: the address of memory to print
- * @c: the size of the memory to print
- * Return: Nothing.
- */
-
+*_strchr - Returns a pointer to the first occurrence
+*of the character c in the string s, or NULL if the
+*character is not found
+*
+*@s:string targeted
+*@c:character targeted
+*
+*Return: returns pointer to first occcurence of c
+*/
 char *_strchr(char *s, char c)
 {
-	
-	while (*s != '\0') /*Declaring WHILE*/
-	{
-		if (*s == c) /*if s ==  c*/
-		{
-			return (s); /*return s*/
-		}
+	int i;
 
-		++s;
-	}
-
-	if (*s == c)
-	{
-		return (s);
-
-	}
-
-
-	return (0);/* values null*/
+	for (i = 0; (s[i] != c) && (s[i] != '\0'); i++)
+		;
+	if (s[i] == c)
+		return (s + i);
+	else
+		return (NULL);
 }
