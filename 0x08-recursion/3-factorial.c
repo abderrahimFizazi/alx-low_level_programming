@@ -8,7 +8,8 @@
 {
 	if (n > 1)
 	{
-		return (n * _strlen_recursion(--n));
+		n--;
+		return (n * (_strlen_recursion(n)));
 	}
 	else if (n == 1 || n == 0)
 	{
