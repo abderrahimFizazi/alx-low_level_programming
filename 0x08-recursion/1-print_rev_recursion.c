@@ -6,7 +6,7 @@
  */
 void _print_rev_recursion(char *s)
 {
-	int *i;
+	char *i;
 	if (*s != '\0')
 	{
 	for (i = s; *i != '\0'; i++);
