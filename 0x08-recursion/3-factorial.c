@@ -9,7 +9,7 @@
 	if (n > 1)
 	{
 		n--;
-		return (n * (_strlen_recursion(n)));
+		return (_strlen_recursion(n) * n);
 	}
 	else if (n == 1 || n == 0)
 	{
