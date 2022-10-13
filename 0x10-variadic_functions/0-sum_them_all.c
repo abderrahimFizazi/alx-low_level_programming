@@ -1,5 +1,5 @@
 #include <stdarg.h>
-
+#include "variadic_functions.h"
 /**
  * sum_them_all - executes a function given as a parameter
  * on each element of an array
