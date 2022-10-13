@@ -1,11 +1,13 @@
 #include <stdarg.h>
 #include <stdio.h>
+
 /**
- * sum_them_all - adds all its parameters
+ * print_numbers - a function that print numbers, followed by a new line.
  *
+ * @separator: pointer to constant separator
  * @n: start of input variables
  *
- * Return: the sum
+ * Return: nothing
 */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
@@ -27,5 +29,5 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	}
 	va_end(ap);
 
-	return (sum);
+	printf("\n");
 }
