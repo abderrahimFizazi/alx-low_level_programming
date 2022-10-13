@@ -13,21 +13,21 @@
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list ap;
-	unsigned int param;
+	unsigned int index;
 
 	/* initialize the argument list from the start */
 	va_start(ap, n);
 
-	/* iterate through all parameter values*/
-	for (param = 0; param < n; param++)
+	/* iterate through each argument*/
+	for (index = 0; index < n; index++)
 	{
-		/* get the next parameter value and add it to sum*/
+		/* print next argument */
 		printf("%d", va_arg(ap, int));
+		/* print separator only between arguments */
 		if (separator && index != n - 1)
-		printf("%s", separator);
-	/*Clean up*/
+			printf("%s", separator);
 	}
+	/*clean up*/
 	va_end(ap);
-
 	printf("\n");
 }
