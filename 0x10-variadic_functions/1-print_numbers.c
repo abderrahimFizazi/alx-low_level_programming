@@ -17,14 +17,14 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	va_start(ap, n);
 
 	/* iterate through all parameter values*/
-	for (param = 0; param < n - 1; param++)
+	for (param = 0; param < n; param++)
 	{
 		/* get the next parameter value and add it to sum*/
 		printf("%d", va_arg(ap, int));
-		printf("%c", *separator);
+		if (separator && index != n - 1)
+		printf("%s", separator);
 	/*Clean up*/
 	}
-	printf("%d", va_arg(ap, int));
 	va_end(ap);
 
 	return (sum);
