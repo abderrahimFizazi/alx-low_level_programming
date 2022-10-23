@@ -1,21 +1,22 @@
 #include "main.h"
+
 /**
- * factorial - check the code
- * Return: int
- * @n: var
- */
+* factorial - searchs for the factorial of a number
+* @n: the number to find the factorial of
+*
+* Return: the factorial of the number
+*/
+
 int factorial(int n)
 {
-	if (n > 1)
-	{
-		return (factorial(n - 1) * n);
-	}
-	else if (n == 1 || n == 0)
-	{
-	return (1);
-	}
-	else
-	{
+	int next;
+
+	if (n == 0)
+		return (1);
+	else if (n < 0)
 	return (-1);
-	}
+
+	next = factorial(n - 1);
+	return (n * next);
 }
+
